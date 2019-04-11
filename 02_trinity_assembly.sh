@@ -1,4 +1,4 @@
-##introductory trinity assembly run, using Trinity version 2.1.1###
+##introductory trinity assembly run, using Trinity version 2.6.6###
 
 
 Trinity --seqType fa \
