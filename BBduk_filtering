@@ -7,10 +7,10 @@
 for b in $( ls 01_raw_data/*R1.fastq.gz ); do
 i=$(basename $b);
 j=${i%R1.fastq.gz}R2.fastq.gz;
-/lustre/work/jmanthey/bbmap/bbduk.sh in1=/lustre/work/johruska/Baeolophus_RNA/01_raw_data/$i \
-in2=/lustre/work/johruska/Baeolophus_RNA/01_raw_data/$j \
-out1=/lustre/work/johruska/Baeolophus_RNA/01_filtered_data/$i \
-out2=/lustre/work/johruska/Baeolophus_RNA/01_filtered_data/$j \
+/lustre/work/jmanthey/bbmap/bbduk.sh in1=/lustre/scratch/johruska/Baeolophus_RNA/01_raw_data/$i \
+in2=/lustre/scratch/johruska/Baeolophus_RNA/01_raw_data/$j \
+out1=/lustre/scratch/johruska/Baeolophus_RNA/01_filtered_data/$i \
+out2=/lustre/scratch/johruska/Baeolophus_RNA/01_filtered_data/$j \
 minlen=40 qtrim=rl trimq=10 ktrim=r k=25 mink=7 trimpolya=5 ref=/lustre/work/jmanthey/bbmap/resources/adapters.fa \
 hdist=1 tbo tpe;
 done
