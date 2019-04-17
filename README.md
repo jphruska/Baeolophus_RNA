@@ -1,2 +1,2 @@
-# Baelophus_RNA
+# Baeolophus_RNA
 RNA seq project with gonads and liver 
