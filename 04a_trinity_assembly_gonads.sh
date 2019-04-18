@@ -17,4 +17,5 @@ Trinity --seqType fa \
     --max-memory 32G \
     --CPU 6 \
     --SS_lib_type RF \
-    --output ../trinity_out_gonads
+    --output ../trinity_gonad_output_a
+
