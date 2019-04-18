@@ -5,4 +5,4 @@ Trinity --seqType fa \
     --max-memory 120G \
     --CPU 6 \
     --SS_
-    --output ../trinity_out_gonads
+    --output ../trinity_gonad_output
